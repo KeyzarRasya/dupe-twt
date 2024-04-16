@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container{
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    width: 500px;
+    height: auto;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.card{
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+p{
+    color: white;
+    margin-top: 5px;
+}
+
+a{
+    width: 70px;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #0d1b2a;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uname{
+    font-size: 20px;
+}
+
+.tform{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tform textarea{
+    width: 85%;
+    resize: none;
+    color: black;
+}
+
+.tform button{
+    width: 10%;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
